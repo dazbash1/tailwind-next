@@ -2,6 +2,7 @@ export default function page() {
   return (
     <div className="flex flex-col h-48 w-full bg-gray-100 justify-between p-3">
       <div className="flex flex-row flex-1 justify-end gap-2  pr-2">
+        <Acc
         <div className="h-10 w-32 bg-gray-300">
         </div>
         <div className="h-10 w-10 bg-gray-300">
