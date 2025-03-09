@@ -9,9 +9,9 @@ export default function page() {
             <div className="h-8 flex-1 bg-gray-400 ">
             </div>
           </div>
+          <div className="flex flex-row h-12 flex-1 justify-end">
         </div>
         <div className="flex flex-col  h-full flex-1 justify-between p-4 gap-2 ">
-          <div className="flex flex-row h-12 flex-1 justify-end">
             <div className="h-12 w-52 bg-gray-400">
             </div>
           </div>
