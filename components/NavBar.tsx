@@ -1,14 +1,19 @@
 export default function NavBar() {
     return (
-        <div className="flex flex-row justify-between items-center bg-gray-100 gap-1 p-10">
-            <div className="h-81 w-38 bg-gray-300">
-            </div>
-            <div className="h-35 w-86 bg-gray-300">
-            </div>
-            <div className="flex flex-row items-center">
-                <div className="h-15 w-15 bg-gray-300">
+        <div className="flex flex-row items-end justify-center h-64 bg-gray-500 gap-1">
+            <div className="flex flex-row w-full p-4">
+                <div className="h-4 w-4 bg-gray-300">
                 </div>
             </div>
+            <div className="flex flex-row w-full p-4">
+                <div className="h-8 w-20 bg-gray-300">
+                </div>
+            </div>
+            <div className="flex flex-row justify-end w-full p-4">
+                <div className="h-10 w-20 bg-gray-300">
+                </div>
+            </div>
+
         </div>
     )
 }
