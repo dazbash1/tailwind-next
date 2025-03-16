@@ -1,34 +1,18 @@
 export default function Price() {
     return (
-        <div className="flex flex-row justify-between gap-14">
-            <div className="flex flex-row items-center w-full bg-gray-500 p-16 gap-8">
-                <div className="h-48 w-full bg-gray-300">
+        <div className="flex flex-row bg-red-200 h-20 gap-1">
+            <div className="flex flex-row flex-1 items-center bg-gray-500 gap-8 p-4">
+                <div className="h-10 w-10 bg-gray-100 ">
                 </div>
-                <div className="flex flex-row items-center justify-end h-full w-full">
-                <div className="h-25 w-78 bg-gray-300">
-                </div>
-                </div>
-                <div className="flex flex-row items-center">
-                    <div className="h-42 w-42 bg-gray-300">
-
-                    </div>
+                <div className="h-6 w-16 bg-gray-100 ">
                 </div>
             </div>
-            <div className="flex flex-row items-center w-full bg-gray-500 p-16 gap-8">
-                <div className="h-25 w-93 bg-gray-300">
+            <div className="flex flex-row flex-1 items-center justify-end bg-gray-500 gap-8 p-4">
+                <div className="h-6 w-18 bg-gray-100 ">
                 </div>
-                <div className="flex flex-row items-center justify-end h-full w-full">
-                <div className="h-25 w-76 bg-gray-300">
-                </div>
-                </div>
-                <div className="flex flex-row items-center">
-                    <div className="h-42 w-42 bg-gray-300">
-
-                    </div>
+                <div className="h-10 w-10 bg-gray-100 ">
                 </div>
             </div>
         </div>
-
-
     )
 }
