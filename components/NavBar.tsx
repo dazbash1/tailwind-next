@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <div className="flex flex-row items-end justify-center h-16 bg-gray-200 gap-1">
+        <div className="flex flex-row items-end justify-center h-16 bg-gray-300 gap-1">
             <div className="flex flex-row w-full pr-4 pb-4">
                 <div className="h-4 w-4 bg-gray-500">
                 </div>
