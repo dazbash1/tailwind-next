@@ -1,6 +1,6 @@
 export default function Price() {
     return (
-        <div className="flex flex-row bg-red-200 h-20 gap-1">
+        <div className="flex flex-row h-20">
             <div className="flex flex-row flex-1 items-center bg-gray-500 gap-8 p-4">
                 <div className="h-10 w-10 bg-gray-100 ">
                 </div>
