@@ -1,8 +1,8 @@
-import Phone from "@/components/Phone";
+import Banner from "@/components/Banner";
 export default function page() {
     return (
         <div>
-             <Phone />
+             <Banner/>
         </div>
     )
 }
